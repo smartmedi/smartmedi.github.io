@@ -160,7 +160,12 @@ textarea:focus {
    3. Section Header                 
 ========================================= */
 header {
-	background: url(images/bg.jpg) 50% 0 no-repeat fixed;
+
+	background: url(images/bg.jpg) no-repeat center center fixed;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 .top .photo-slide {
