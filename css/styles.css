@@ -1,0 +1,289 @@
+body {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    background: none;
+}
+.full {
+    /*background: url(../img/bg1.jpg) no-repeat center center fixed;*/
+    background-color:#00695c;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+strong {
+    font-weight: 700;
+}
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    z-index: 99999;
+    height: 100%;
+}
+#status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+    padding: 0;
+}
+.logo {
+    font-size: 82px;
+    color: #fff;
+    font-family: 'Grand Hotel',cursive;
+}
+
+
+.coming-soon {
+    padding-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.coming-soon h2 {
+    font-size: 80px;
+    font-weight: 500;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+
+}
+.coming-soon h3 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #C7C7C7;
+    margin-top: 60px;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+.coming-soon p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 36px;
+    display: inline-block;
+    color: #D6D6D6;
+    letter-spacing: 1px;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+.counter {
+    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+.counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+    font-size: 80px;
+    line-height: 90px;
+}
+.subscribe {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.subscribe h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.3);
+    line-height: 20px;
+    display: inline-block;
+    letter-spacing: 5px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+.subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.subscribe form {
+    margin-top: 10px;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+.subscribe form .material-input {
+    width: 310px;
+    height: 46px;
+    color: #fff;
+    display: inline-block;
+}
+
+.subscribe form input:-moz-placeholder {
+    color: #888;
+}
+.subscribe form input:-ms-input-placeholder {
+    color: #888;
+}
+.subscribe form input::-webkit-input-placeholder {
+    color: #888;
+}
+.subscribe form button {
+    width: 130px;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    background-color: #009688;
+    border: 1px solid #009688;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 3px;
+    text-shadow: 0;
+    margin-bottom: 5.1rem;
+    margin-left: 2rem;
+}
+.btn:hover, .btn:focus{
+    color: #ffffff;
+}
+.subscribe form button:hover {
+    background-color: #00a393;
+    color: #fff;
+}
+.subscribe form button:active {
+    background-color: #00a393;
+    color: #fff;
+}
+.social {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+.social a i {
+    display: inline-block;
+    padding: 0 20px;
+}
+.social a i:hover {
+    color: #00a393;
+}
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+.copyright a {
+    border-bottom: 0px solid #00ccff;
+    color: rgba(255,255,255,0.8);
+}
+.copyright a:hover {
+    color: #00ccff;
+    border-bottom: 1px solid #00ccff;
+}
+.material .material-input{
+    background: none;
+}
+
+.material .material-bar:after, .material .material-bar:before{
+    background: #ffffff;
+}
+.material .material-input input{
+    height: 28px;
+}
+.btn-raised{
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+/***** Media Queries *****/
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .logo h1 {
+        padding-left: 0;
+    }
+    .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+        width: 140px;
+        height: 120px;
+        margin: 0 7px;
+        padding-top: 20px;
+        -moz-border-radius: 70px;
+        -webkit-border-radius: 70px;
+        border-radius: 70px;
+    }
+    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .subscribe form .material-input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .logo h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+    .coming-soon h2 {
+        font-size: 36px;
+        padding: 0 20px;
+    }
+    .coming-soon p {
+        padding: 0 20px;
+    }
+    .counter .days-wrapper, .counter .hours-wrapper, .counter .minutes-wrapper, .counter .seconds-wrapper {
+        width: 140px;
+        height: 120px;
+        margin: 7px;
+        padding-top: 20px;
+        -moz-border-radius: 70px;
+        -webkit-border-radius: 70px;
+        border-radius: 70px;
+    }
+    .counter .days, .counter .hours, .counter .minutes, .counter .seconds {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .subscribe h3 {
+        padding: 0 20px;
+        font-size: 28px;
+    }
+    .subscribe p {
+        padding: 0 20px;
+    }
+    .subscribe form .material-input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscribe form {
+        padding: 0 20px;
+    }
+    .subscribe form input {
+        width: 90%;
+    }
+    .subscribe form button {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .subscribe form .material-input{
+        width: 100%;
+    }
+}
