@@ -14,10 +14,6 @@ jQuery(document).ready(function() {
         // will first fade out the loading animation
         $("#status").fadeOut("slow");
         $('form').materialForm();
-        $('form').validate({
-                errorPlacement: function(error, element) {}
-    });
-
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(500).fadeOut("slow").remove();
 
@@ -37,5 +33,8 @@ jQuery(document).ready(function() {
             '<div class="seconds-wrapper"><span class="seconds">%S</span><br>seconds</div>'));
 
         });
+    $('#submit').click(function(){
+        swal("Thank you!", "We will Notify you", "success");
+    });
 
 });
