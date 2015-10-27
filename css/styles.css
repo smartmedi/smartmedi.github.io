@@ -6,8 +6,7 @@ body {
     background: none;
 }
 .full {
-    /*background: url(../img/bg1.jpg) no-repeat center center fixed;*/
-    background-color:#00695c;
+    background-color:#00796B;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
